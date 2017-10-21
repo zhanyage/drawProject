@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andya.drawpicturetest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitytest.ProterTestActivity"
+            android:hardwareAccelerated="false"/>
+        <activity android:name=".activitytest.PaintTestActivity"
+            android:hardwareAccelerated="false"/>
+        <activity android:name=".activitytest.PathTestActivity1"
+            android:hardwareAccelerated="false"/>
+        <activity android:name=".activitytest.ShaperTestActivity"
+            android:hardwareAccelerated="false"/>
+        <activity android:name=".activitytest.ShaderTestActivity1"/>
+        <activity android:name=".activitytest.ShaderTestActivity2"
+            android:hardwareAccelerated="false"/>
+        <activity android:name=".activitytest.MatrixActivityTest"
+            android:hardwareAccelerated="false"/>
+        <activity android:name=".activitytest.PathMeasureActivity"
+            android:hardwareAccelerated="false"/>
+    </application>
+
+</manifest>
